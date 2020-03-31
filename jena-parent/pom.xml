@@ -31,7 +31,7 @@
     <artifactId>apache</artifactId>
     <!-- This version number is also in the top POM -->
     <version>16</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <licenses>
@@ -65,7 +65,7 @@
     <ver.httpcore-osgi>4.2.5</ver.httpcore-osgi>
     <ver.httpclient-osgi>4.2.6</ver.httpclient-osgi>
 
-    <ver.commons-codec>1.9</ver.commons-codec>
+    <ver.commons-codec>1.13</ver.commons-codec>
     <ver.lucene>4.9.1</ver.lucene>
     <ver.solr>4.9.1</ver.solr>
     <ver.spatial4j>0.4.1</ver.spatial4j>
@@ -576,7 +576,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -593,7 +593,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 
@@ -611,7 +611,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
 
@@ -625,7 +625,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 
@@ -759,7 +759,7 @@
                 <message>No SNAPSHOT dependencies are allowed!</message>
                 <onlyWhenRelease>true</onlyWhenRelease>
               </requireReleaseDeps>
-              <DependencyConvergence />
+              <DependencyConvergence/>
             </rules>
             <fail>true</fail>
           </configuration>
