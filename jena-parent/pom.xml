@@ -31,7 +31,7 @@
     <artifactId>apache</artifactId>
     <!-- This version number is also in the top POM -->
     <version>16</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <licenses>
@@ -49,7 +49,7 @@
   <properties>
     <ver.slf4j>1.7.12</ver.slf4j>
     <ver.log4j>1.2.17</ver.log4j>
-    <ver.junit>4.12</ver.junit>
+    <ver.junit>4.13.1</ver.junit>
     <ver.xerces>2.11.0</ver.xerces>
 
     <ver.jsonldjava>0.7.0</ver.jsonldjava>
@@ -576,7 +576,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -593,7 +593,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 
@@ -611,7 +611,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
 
@@ -625,7 +625,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 
@@ -759,7 +759,7 @@
                 <message>No SNAPSHOT dependencies are allowed!</message>
                 <onlyWhenRelease>true</onlyWhenRelease>
               </requireReleaseDeps>
-              <DependencyConvergence />
+              <DependencyConvergence/>
             </rules>
             <fail>true</fail>
           </configuration>
