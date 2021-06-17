@@ -31,7 +31,7 @@
     <artifactId>apache</artifactId>
     <!-- This version number is also in the top POM -->
     <version>16</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <licenses>
@@ -189,7 +189,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-collections4</artifactId>
-        <version>4.0</version>
+        <version>4.1</version>
       </dependency>
       
       <!-- supports persistent data structures -->
@@ -576,7 +576,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -593,7 +593,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 
@@ -611,7 +611,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
 
@@ -625,7 +625,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 
@@ -759,7 +759,7 @@
                 <message>No SNAPSHOT dependencies are allowed!</message>
                 <onlyWhenRelease>true</onlyWhenRelease>
               </requireReleaseDeps>
-              <DependencyConvergence />
+              <DependencyConvergence/>
             </rules>
             <fail>true</fail>
           </configuration>
