@@ -62,8 +62,8 @@
 
   <properties>
     <!--<ver.jetty>9.1.1.v20140108</ver.jetty>-->
-    <ver.jetty>9.3.3.v20150827</ver.jetty>
-    <ver.shiro>1.2.4</ver.shiro>
+    <ver.jetty>9.4.39.v20210325</ver.jetty>
+    <ver.shiro>1.7.1</ver.shiro>
     <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ssZ</maven.build.timestamp.format>
     <build.time.xsd>${maven.build.timestamp}</build.time.xsd>  
   </properties>
